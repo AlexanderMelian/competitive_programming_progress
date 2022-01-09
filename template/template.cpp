@@ -10,6 +10,7 @@ using ll = long long;
 #define prs(s) printf("%s\n",s)
 
 void solve(){
+
 }
 
 
