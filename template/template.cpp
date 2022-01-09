@@ -9,8 +9,14 @@ using ll = long long;
 #define prl(x) printf("%lld\n",x)
 #define prs(s) printf("%s\n",s)
 
+void solve(){
+}
 
 
 int main(){
-
+    int t;
+    ini(t);
+    while(t--){
+        solve();
+    }
 }
