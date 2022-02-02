@@ -12,31 +12,7 @@ using ll = long long;
 
 void solve()
 {
-    int a[10] = {4, 2, 3, 5, 6, 7, 8, 9, 10, 1};
-    int pass = 0;
     
-    for (int i = 0; i < 10; i++)
-    {
-        cout << a[i] << "\t";
-    }
-    cout << endl;
-    for (int i = 0; i < 10; i++)
-    {
-        for (int j = i + 1; j < 10; j++)
-        {
-            if (a[j] < a[i])
-            {
-                int temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
-            }
-        }
-        pass++;
-    }
-    for (int i = 0; i < 10; i++)
-    {
-        cout << a[i] << "\t";
-    }
 }
 
 #ifdef CALCULATE_TIME
